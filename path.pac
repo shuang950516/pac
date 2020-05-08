@@ -1,3 +1,3 @@
 function FindProxyForURL(url, host) {
-  return "PROXY localhost:3128";
+  return "HTTP localhost:3128;HTTPS localhost:3128;SOCKS 127.0.0.0:3128";
 }
